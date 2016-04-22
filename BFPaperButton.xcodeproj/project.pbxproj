@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343AB47F1CC9B47A00962943 /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F42B5BA41978DC9300D6F4B5 /* BFPaperButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343AB4801CC9B47C00962943 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F42B5BA51978DC9300D6F4B5 /* BFPaperButton.m */; };
 		505ABA1D1C7E7BBE00B76BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505ABA1C1C7E7BBE00B76BDF /* LaunchScreen.storyboard */; };
 		55FFD66AAF204A9CB9263275 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DB54154CCF4D8789C3CAC5 /* libPods.a */; };
 		EDD3C703DB1C7C025A8D9D18 /* libPods-BFPaperButtonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A3EE64683DBC96E9815A26 /* libPods-BFPaperButtonTests.a */; };
@@ -41,12 +43,14 @@
 		06DB54154CCF4D8789C3CAC5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		289ABA5861550F9FC1DF4B31 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		29A3EE64683DBC96E9815A26 /* libPods-BFPaperButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BFPaperButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		343AB4771CC9B43F00962943 /* BFPaperButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BFPaperButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		343AB47B1CC9B43F00962943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4837025DC55EFC272A8F0080 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		505ABA1C1C7E7BBE00B76BDF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		899E17FD75E8F4028B15A891 /* Pods-BFPaperButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFPaperButtonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BFPaperButtonTests/Pods-BFPaperButtonTests.release.xcconfig"; sourceTree = "<group>"; };
 		F42B5BA41978DC9300D6F4B5 /* BFPaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = ../Classes/BFPaperButton.h; sourceTree = "<group>"; };
 		F42B5BA51978DC9300D6F4B5 /* BFPaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = ../Classes/BFPaperButton.m; sourceTree = "<group>"; };
-		F46DDB2619761BF500D26097 /* BFPaperButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFPaperButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46DDB2619761BF500D26097 /* BFPaperButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFPaperButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46DDB2919761BF500D26097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F46DDB2B19761BF500D26097 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F46DDB2D19761BF500D26097 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -69,6 +73,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		343AB4731CC9B43F00962943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F46DDB2319761BF500D26097 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,11 +116,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		343AB4781CC9B43F00962943 /* BFPaperButton */ = {
+			isa = PBXGroup;
+			children = (
+				343AB47B1CC9B43F00962943 /* Info.plist */,
+			);
+			path = BFPaperButton;
+			sourceTree = "<group>";
+		};
 		F46DDB1D19761BF500D26097 = {
 			isa = PBXGroup;
 			children = (
 				F46DDB2F19761BF500D26097 /* BFPaperButton */,
 				F46DDB4E19761BF600D26097 /* BFPaperButtonTests */,
+				343AB4781CC9B43F00962943 /* BFPaperButton */,
 				F46DDB2819761BF500D26097 /* Frameworks */,
 				F46DDB2719761BF500D26097 /* Products */,
 				08DD4DF6074ECC8113EF90C3 /* Pods */,
@@ -119,8 +139,9 @@
 		F46DDB2719761BF500D26097 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F46DDB2619761BF500D26097 /* BFPaperButton.app */,
+				F46DDB2619761BF500D26097 /* BFPaperButtonDemo.app */,
 				F46DDB4719761BF600D26097 /* BFPaperButtonTests.xctest */,
+				343AB4771CC9B43F00962943 /* BFPaperButton.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,10 +215,39 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		343AB4741CC9B43F00962943 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343AB47F1CC9B47A00962943 /* BFPaperButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		F46DDB2519761BF500D26097 /* BFPaperButton */ = {
+		343AB4761CC9B43F00962943 /* BFPaperButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F46DDB5819761BF600D26097 /* Build configuration list for PBXNativeTarget "BFPaperButton" */;
+			buildConfigurationList = 343AB47C1CC9B43F00962943 /* Build configuration list for PBXNativeTarget "BFPaperButton" */;
+			buildPhases = (
+				343AB4721CC9B43F00962943 /* Sources */,
+				343AB4731CC9B43F00962943 /* Frameworks */,
+				343AB4741CC9B43F00962943 /* Headers */,
+				343AB4751CC9B43F00962943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFPaperButton;
+			productName = BFPaperButton;
+			productReference = 343AB4771CC9B43F00962943 /* BFPaperButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F46DDB2519761BF500D26097 /* BFPaperButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46DDB5819761BF600D26097 /* Build configuration list for PBXNativeTarget "BFPaperButtonDemo" */;
 			buildPhases = (
 				37C74664C69147669C81181B /* Check Pods Manifest.lock */,
 				F46DDB2219761BF500D26097 /* Sources */,
@@ -210,9 +260,9 @@
 			);
 			dependencies = (
 			);
-			name = BFPaperButton;
+			name = BFPaperButtonDemo;
 			productName = BFPaperButton;
-			productReference = F46DDB2619761BF500D26097 /* BFPaperButton.app */;
+			productReference = F46DDB2619761BF500D26097 /* BFPaperButtonDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F46DDB4619761BF600D26097 /* BFPaperButtonTests */ = {
@@ -245,6 +295,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Bence Feher";
 				TargetAttributes = {
+					343AB4761CC9B43F00962943 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					F46DDB4619761BF600D26097 = {
 						TestTargetID = F46DDB2519761BF500D26097;
 					};
@@ -263,13 +316,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F46DDB2519761BF500D26097 /* BFPaperButton */,
+				F46DDB2519761BF500D26097 /* BFPaperButtonDemo */,
 				F46DDB4619761BF600D26097 /* BFPaperButtonTests */,
+				343AB4761CC9B43F00962943 /* BFPaperButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		343AB4751CC9B43F00962943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F46DDB2419761BF500D26097 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,6 +429,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		343AB4721CC9B43F00962943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343AB4801CC9B47C00962943 /* BFPaperButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F46DDB2219761BF500D26097 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,7 +461,7 @@
 /* Begin PBXTargetDependency section */
 		F46DDB4D19761BF600D26097 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F46DDB2519761BF500D26097 /* BFPaperButton */;
+			target = F46DDB2519761BF500D26097 /* BFPaperButtonDemo */;
 			targetProxy = F46DDB4C19761BF600D26097 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,6 +494,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		343AB47D1CC9B43F00962943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BFPaperButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.bfeher.BFPaperButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		343AB47E1CC9B43F00962943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BFPaperButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.bfeher.BFPaperButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F46DDB5619761BF600D26097 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -577,6 +702,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		343AB47C1CC9B43F00962943 /* Build configuration list for PBXNativeTarget "BFPaperButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343AB47D1CC9B43F00962943 /* Debug */,
+				343AB47E1CC9B43F00962943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F46DDB2119761BF500D26097 /* Build configuration list for PBXProject "BFPaperButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -586,7 +719,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F46DDB5819761BF600D26097 /* Build configuration list for PBXNativeTarget "BFPaperButton" */ = {
+		F46DDB5819761BF600D26097 /* Build configuration list for PBXNativeTarget "BFPaperButtonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F46DDB5919761BF600D26097 /* Debug */,
